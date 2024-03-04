@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 1109px;
+}
+
+svg.logo {
+    width: 91px;
+    height: 20px;
+}
+.nav {
+    
+    &__list {
+        display: flex;
+        width: 162px;
+        justify-content: space-between;
+    }
+    &__link {
+        color: #111;
+        font-family: fonts.$main-font;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        
+        text-decoration: none;
+        letter-spacing: -0.346px;
+    }
+}
