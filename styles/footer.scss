@@ -1,0 +1,51 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 23px;
+    width: 1109px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 353px;
+
+    &__list {
+        display: flex;
+        width: 162px;
+        justify-content: space-between;
+    }
+    &__socials {
+        display: flex;
+        justify-content: space-between;
+        width: 95px;
+        height: 15px;
+    }
+    &__link {
+        color: #111;
+        font-family: fonts.$main-font;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        
+        text-decoration: none;
+        letter-spacing: -0.346px;
+    }
+
+}
+
+svg.logo {
+    width: 91px;
+    height: 20px;
+}
+svg.instagram, svg.dribbble {
+    width: 15px;
+    height: 15px;
+}
+svg.twitter {
+    width: 18px;
+    height: 14px;
+}
