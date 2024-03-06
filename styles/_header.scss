@@ -1,30 +1,40 @@
+@import 'svg';
+
 header {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    display: grid;
+    justify-items: start;
     align-items: center;
-    width: 1109px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 1110px;
+    height: 23px;
+    margin-top: 10px;
 }
 
-svg.logo {
-    width: 91px;
-    height: 20px;
+.nav__header {
+    grid-column: 7 / 7;
 }
-.nav {
-    
-    &__list {
-        display: flex;
+
+.header {
+    &__links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: end;
         width: 162px;
-        justify-content: space-between;
     }
-    &__link {
+    &__projects, &__contact {
         color: #111;
         font-family: fonts.$main-font;
         font-size: 18px;
         font-style: normal;
-        font-weight: 700;
-        
+        font-weight: 700; 
         text-decoration: none;
         letter-spacing: -0.346px;
     }
+    &__li.one {
+        grid-column: 1/2;
+    }
+    &__li.two {
+        grid-column: 2/2;
+    }    
 }

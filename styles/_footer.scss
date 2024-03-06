@@ -1,0 +1,75 @@
+@import 'svg';
+
+
+
+.footer {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 1110px;
+    height: 23px;
+    margin-bottom: 10px;
+
+    &__projects, &__contact {
+        color: #111;
+        font-family: fonts.$main-font;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700; 
+        text-decoration: none;
+        letter-spacing: -0.346px;
+    }
+    &__li.one {
+        grid-column: 1/2;
+    }
+    &__li.two {
+        grid-column: 3/4;
+    }
+    &__links {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1 / 2;
+        width: 162px;
+    }
+    &__socials {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column: 3 / 4;
+        align-items: center;
+        grid-gap: 24px;
+        transform: translateX(-1px);
+
+        .instagram {
+        grid-column: 2/3;
+        }
+        .dribbble {
+        grid-column: 1/2;
+        }
+        .instagram, .dribbble {
+        width: 15px;
+        height: 15px;
+        }
+        .twitter {
+        grid-column: 3/4;
+        width: 18px;
+        height: 14px;
+        } 
+    }
+}
+
+.nav__footer {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 9 / 10;
+    width: 353px;
+} 
+
+
+
+
+
+
+
+

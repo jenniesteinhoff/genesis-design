@@ -7,31 +7,27 @@
 html {
     display: flex;
     justify-content: center;
+    height: 3840px;
 }
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 1100px;
+    height: 3772px;
     margin: 20px;
     color: $main-txt-color;
     font-family: fonts.$main-font;
     font-style: normal;
-    font-weight: 700;
     vertical-align: top;  
 }
 
-h1, h2, h4, h5 {
+h1, h2, h4, h5, h6 {
     vertical-align: top;
+    line-height: normal;
 }
 h1 {
-    color: $main-txt-color;
     font-size: 40px;
     line-height: 60px;
 }
 h2 {
     font-size: 28px;
-    font-weight: 700;
     line-height: 38px;
 }
 h3 {
@@ -40,13 +36,16 @@ h3 {
 h4 {
     font-size: 18px;
 }
-h5 {
+h5, h6 {
     font-size: 16px;
-    font-weight: 400;
 }
 h6 {
-    font-size: 16px;
-    font-weight: 400;
     line-height: 26px;
     opacity: 0.6;
+}
+h1, h2, h3, h4 {
+    font-weight: 700;
+}
+h5, h6 {
+    font-weight: 400;
 }
