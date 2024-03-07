@@ -1,4 +1,5 @@
 @import 'svg';
+@import 'buttons';
 
 header {
     display: grid;
@@ -7,7 +8,6 @@ header {
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(1, 1fr);
     width: 1110px;
-    height: 23px;
     margin-top: 10px;
 }
 
@@ -18,23 +18,22 @@ header {
 .header {
     &__links {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-items: end;
-        width: 162px;
+        grid-template-columns: repeat(3, 1fr);
+        width: 181px;
     }
     &__projects, &__contact {
         color: #111;
+        font-style: normal;
+        text-decoration: none;        
         font-family: fonts.$main-font;
         font-size: 18px;
-        font-style: normal;
-        font-weight: 700; 
-        text-decoration: none;
+        font-weight: 700;
         letter-spacing: -0.346px;
     }
     &__li.one {
-        grid-column: 1/2;
+        grid-column: 1 / 2;
     }
     &__li.two {
-        grid-column: 2/2;
-    }    
+        grid-column: 3 / 4;
+    }
 }

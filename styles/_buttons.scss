@@ -1,0 +1,39 @@
+button {
+    width: 85px;
+    height: 30px;
+    border-style: none;
+    background-color: #FFF;
+    border-radius: 15px;
+    
+}
+button:hover{
+    background-color: #4A4FF2;
+    color: #FFF;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.30);
+    transition: 1s;
+}
+
+.footer__socials {
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 29px;
+        height: 29px;
+        border-style: none;
+        background-color: #FFF;
+        border-radius: 15px;
+    }
+    button:hover{
+        background-color: #4A4FF2;
+        color: #FFF;
+        box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.30);
+        transition: 1s;
+    
+        svg {
+        fill: #FFF;
+        transition: 0.8s;
+    }
+    }
+    
+}
