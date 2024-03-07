@@ -22,7 +22,7 @@ header {
         width: 181px;
     }
     &__projects, &__contact {
-        color: #111;
+        color: $main-txt-color;
         font-style: normal;
         text-decoration: none;        
         font-family: fonts.$main-font;

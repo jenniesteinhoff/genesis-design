@@ -10,7 +10,7 @@
     margin-bottom: 10px;
 
     &__projects, &__contact {
-        color: #111;
+        color: $main-txt-color;
         font-family: fonts.$main-font;
         font-size: 18px;
         font-style: normal;

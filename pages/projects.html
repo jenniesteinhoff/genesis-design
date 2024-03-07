@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/normalize.css"/>
-    <link rel="stylesheet" href="styles/index.css"/>
+    <link rel="stylesheet" href="../styles/normalize.css"/>
+    <link rel="stylesheet" href="../styles/index.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
@@ -12,11 +12,68 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
+        <svg class="logo">
+            <use href="../images/logo.svg#nav__logo"></use>
+        </svg>
+        <nav class="nav__header">
+            <ul class="header__links">
+                <li class="header__li one"><a href="/pages/projects.html"><button class="header__projects">Projects</button></a></li>
+                <li class="header__li two"><a href="/pages/contact.html"><button class="header__contact">Contact</button></a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
+    <main class="projects">
+        <div class="container one">
+            <div class="card__title">
+                <h1 class="item__title">A fresh new title can make all the difference!</h1></div>
+            <div class="card__intro">
+            <h5 class="item__intro one">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, 
+                by injected humour, or randomised words which don't look even slightly believable.</h5>
+            <h5 class="item__intro two">
+                You need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on 
+                the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It 
+                uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures.</h5>
+            </div>
+            <div class="card__information">
+                <div class="item__information one">
+                    <h6 class="txt__information one">Project</h6>
+                    <h6 class="txt__information one">Design</h6>
+                    <h6 class="txt__information one">Client</h6>
+                    <h6 class="txt__information one">Deliverable</h6>
+                    <h6 class="txt__information one">Year</h6>
+                    <h6 class="txt__information one">Field</h6>
+                </div>
+                <div class="item__information two">
+                    <h5 class="txt__information two">Genesis Portfolio</h5>
+                    <h5 class="txt__information two">Bakhtiyar Sattarov</h5>
+                    <h5 class="txt__information two">Craftwork</h5>
+                    <h5 class="txt__information two">Website Design</h5>
+                    <h5 class="txt__information two">2018</h5>
+                    <h5 class="txt__information two">Branding, Personal</h5>
+                </div>
+            </div>   
+        </div>
+        <div class="container two">
+            <img src="../images/image_13.png" alt="">
+        </div>
     </main>
-    <footer>
+    <footer class="footer">
+        <svg class="logo">
+            <use href="../images/logo.svg#nav__logo"></use>
+        </svg>
+        <nav class="nav__footer">
+                <ul class="footer__links">
+                    <li class="footer__li one"><a href="/pages/projects.html"><button class="footer__projects">Projects</button></a></li>
+                    <li class="footer__li two"><a href="/pages/contact.html"><button class="footer__contact">Contact</button></a></li>
+                </ul>
+                <ul class="footer__socials">
+                    <li class="footer__li three"><a href="#"><button class="footer__dribbble"><svg class="dribbble"><use href="../images/dribbble.svg#nav__dribbble"></use></svg></button></a></li>
+                    <li class="footer__li four"><a href="#"><button class="footer__instagram"><svg class="instagram"><use href="../images/instagram.svg#nav__instagram">W</use></svg></button></a></li>
+                    <li class="footer__li five"><a href="#"><button class="footer__twitter"><svg class="twitter"><use href="../images/twitter.svg#nav__twitter">W</use></svg></button></a></li>   
+                </ul>
+        </nav>
     </footer>
 </body>
 
