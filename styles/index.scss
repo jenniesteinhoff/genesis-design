@@ -12,10 +12,8 @@ $border-color: #D8D8D8;
 html {
     display: flex;
     justify-content: center;
-    height: 3840px;
 }
 body {
-    height: 3772px;
     margin: 20px;
     color: $main-txt-color;
     font-family: fonts.$main-font;
@@ -42,18 +40,19 @@ h2 {
     line-height: 38px;
 }
 h3 {
-    font-size: 22px;
+    font-size: 26px;
+    
 }
 h4 {
+    font-size: 22px;
+}
+h5 {
     font-size: 18px;
 }
-h5, h6 {
+h6 {
     font-size: 16px;
 }
-h6 {
-    line-height: 26px;
-    opacity: 0.6;
-}
+
 h1, h2, h3, h4 {
     font-weight: 700;
 }

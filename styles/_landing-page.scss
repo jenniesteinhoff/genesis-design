@@ -1,3 +1,10 @@
+html {
+    height: 3840px;
+}
+
+body {
+    height: 3772px;
+}
 .landing {
     display: grid;
     justify-items: start;
@@ -48,7 +55,6 @@
         margin-bottom: 7px;    
     }
     &__quote {
-        
         font-style: italic;
         font-weight: 400;
         opacity: 0.6;    
@@ -184,7 +190,6 @@
         grid-row: 3 / 4;
         width: 285px;
         transform: translateY(-3px);
-        font-weight: 700;
     }
     &.three {
         grid-column: 2 / 3;
@@ -209,6 +214,11 @@
     &.seven {
         grid-column: 4 / 5;
         grid-row: 4 / 5;
+    }
+    &.two, &.three {
+        h5 {
+            font-weight: 700;    
+        }
     }
     &.four, &.five {
         width: 303px;
