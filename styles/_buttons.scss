@@ -37,3 +37,20 @@ button:hover{
     }
     
 }
+
+#submit {
+    width: 125px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: $sec-color;
+    color: $third-color;
+    text-transform: capitalize;
+    border-style: none;
+
+    &:hover {
+        box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.30) inset;
+        transition: 0.3s;
+    }
+}
+

@@ -1,0 +1,105 @@
+html {
+    height: 1375px;
+}
+
+body {
+    height: 1268px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1110px;
+    height: 1222px;
+
+    h6 {
+        line-height: 26px;    
+    }
+    h1 {
+        line-height: 55px;
+    }
+
+.container.one {
+    display: grid;
+    justify-content: space-between;
+    width: 1110px;
+    height: 312px;
+}
+.card {
+
+    &__title {
+        grid-row: 1 / 2;
+        width: 465px;
+        height: 174px;
+        margin-right: 10px;
+    }
+    &__intro {
+        grid-row: 3 / 4;
+        width: 445px;
+        height: 56px;
+    }
+    &__form {
+        display: grid;
+        grid-template-rows: repeat(7, 1fr);
+        grid-row: 4 / 5;
+        width: 475px;
+        height: 291px;
+    }
+}
+.container__one {
+    
+    &.left {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        width: 475px;
+        height: 252px;
+    }
+    &.right {
+        display: grid;
+        align-items: end;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        width: 475px;
+    }
+}
+.row__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &.one {
+        grid-row: 1 / 2;
+    }
+    &.two {
+        grid-row: 3 / 4;
+    }
+    &.three {
+        grid-row: 5 / 6;
+    }
+    &.four {
+        grid-row: 7 / 8;
+        align-items: flex-start;
+    }
+    label {
+        opacity: 0.6;
+        font-size: 16px;
+    }
+    input {
+        font-size: 14px;
+        border: none;
+        border-bottom-width: 1px;
+        border-bottom-color: #E0E0E0;
+        border-bottom-style: solid;
+    }
+
+    label {
+        font-weight: 700;
+    }
+}
+}
+

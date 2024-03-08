@@ -7,6 +7,7 @@ $border-color: #D8D8D8;
 @import 'header';
 @import 'landing-page';
 @import 'projects-page';
+@import 'contact-page';
 @import 'footer';
 
 html {
@@ -15,10 +16,12 @@ html {
 }
 body {
     margin: 20px;
+}
+body, input, label {
     color: $main-txt-color;
     font-family: fonts.$main-font;
     font-style: normal;
-    vertical-align: top;  
+    vertical-align: top; 
 }
 img {
     width: 100%;

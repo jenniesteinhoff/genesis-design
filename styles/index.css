@@ -50,6 +50,21 @@ button:hover {
   transition: 0.8s;
 }
 
+#submit {
+  width: 125px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #4A4FF2;
+  color: #FFF;
+  text-transform: capitalize;
+  border-style: none;
+}
+#submit:hover {
+  box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.3) inset;
+  transition: 0.3s;
+}
+
 header {
   display: grid;
   justify-items: start;
@@ -435,6 +450,101 @@ body {
   grid-column: 3/4;
 }
 
+html {
+  height: 1375px;
+}
+
+body {
+  height: 1268px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 1110px;
+  height: 1222px;
+}
+.contact h6 {
+  line-height: 26px;
+}
+.contact h1 {
+  line-height: 55px;
+}
+.contact .container.one {
+  display: grid;
+  justify-content: space-between;
+  width: 1110px;
+  height: 312px;
+}
+.contact .card__title {
+  grid-row: 1/2;
+  width: 465px;
+  height: 174px;
+  margin-right: 10px;
+}
+.contact .card__intro {
+  grid-row: 3/4;
+  width: 445px;
+  height: 56px;
+}
+.contact .card__form {
+  display: grid;
+  grid-template-rows: repeat(7, 1fr);
+  grid-row: 4/5;
+  width: 475px;
+  height: 291px;
+}
+.contact .container__one.left {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 475px;
+  height: 252px;
+}
+.contact .container__one.right {
+  display: grid;
+  align-items: end;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  width: 475px;
+}
+.contact .row__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact .row__form.one {
+  grid-row: 1/2;
+}
+.contact .row__form.two {
+  grid-row: 3/4;
+}
+.contact .row__form.three {
+  grid-row: 5/6;
+}
+.contact .row__form.four {
+  grid-row: 7/8;
+  align-items: flex-start;
+}
+.contact .row__form label {
+  opacity: 0.6;
+  font-size: 16px;
+}
+.contact .row__form input {
+  font-size: 14px;
+  border: none;
+  border-bottom-width: 1px;
+  border-bottom-color: #E0E0E0;
+  border-bottom-style: solid;
+}
+.contact .row__form label {
+  font-weight: 700;
+}
+
 svg.logo {
   grid-column: 1/2;
   width: 91px;
@@ -485,6 +595,21 @@ button:hover {
 .footer__socials button:hover svg {
   fill: #FFF;
   transition: 0.8s;
+}
+
+#submit {
+  width: 125px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #4A4FF2;
+  color: #FFF;
+  text-transform: capitalize;
+  border-style: none;
+}
+#submit:hover {
+  box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.3) inset;
+  transition: 0.3s;
 }
 
 .footer {
@@ -565,6 +690,9 @@ html {
 
 body {
   margin: 20px;
+}
+
+body, input, label {
   color: #111;
   font-family: "Mulish", sans-serif;
   font-style: normal;
